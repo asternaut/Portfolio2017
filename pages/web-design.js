@@ -13,29 +13,31 @@ export default () => (
     </div>
 
     <wrapper className="Grid">
-    <div className="individualProject">
-      <img src={'/static/gpr-capture.png'} alt="" />
-      <figcaption> <span> 01. </span><a href="https://www.grantprogroup.com/" target="_blank">GRANTS DONE RIGHT</a>: this site used href have multiple pages and looked a little outdated. We did a quick refresh by making it a single-scroller for mobile users, adding some cute hand-made icons, and giving it a slightly sleeker UI. This is a Wix site.</figcaption>
-    </div>
+
 
       <div className="individualProject">
         <img src={'/static/ppbd-capture.png'} alt="" />
-        <figcaption> <span> 02. </span><a href="https://pressplayonthebryantsday.com/" target="_blank">WEDDING SITE</a>: this cute couple wanted a super simple Wordpress to invite their friends and family to their wedding. We worked quickly and had this up in less than a week! It was a success and they happily celebrated their wedding day, worry free. </figcaption>
+        <figcaption> <span> 01. </span><a href="https://pressplayonthebryantsday.com/" target="_blank">WEDDING SITE</a>:  this cute couple wanted a super simple Wordpress to invite their friends and family to their wedding. We worked quickly and had this up in less than a week! It was a success and they happily celebrated their wedding day, worry-free.</figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/rvrd.png'} alt="" />
-        <figcaption> <span> 03. </span><a href="http://rvrd.org/the-experience/" target="_blank">TAKE THE PERFECT TRIP</a>: while I am not a huge fan of RVing, I loved building a Wordpress site to help people design their perfect vacation (because I definitely love those). This site is 100% my design, and full of goodies. I even built out the Pinterest. Who knows, maybe you will find it useful! </figcaption>
+        <figcaption> <span> 02. </span><a href="http://rvrd.org/the-experience/" target="_blank">TAKE THE PERFECT TRIP</a>: while I am not a huge fan of RVing, I loved building a Wordpress site to help people design their perfect vacation (because I definitely love those). This site is 100% my design, and full of goodies. I even built out the Pinterest. Who knows, maybe you will find it useful! </figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/Marketplace-Mission-Layout.png'} alt="" />
-        <figcaption> <span> 04. </span> TRANSFORMING <a href="http://wyldergoods.com" target="_blank"> WYLDER</a>: Using Shopify/Liquid, I am in the process of updating and renovating many of Wylders pages!! </figcaption>
+        <figcaption> <span> 03. </span> TRANSFORMING <a href="http://wyldergoods.com" target="_blank"> WYLDER</a>: Using Shopify/Liquid, I am in the process of updating and renovating many of Wylders pages!! </figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/web-layout-pop.png'} alt="" />
-        <figcaption> <span> 05. </span> DIGITAL IMPACT: Unfortunately this site is not live yet, but it will be full of pop! This is a mockup done in Adobe Illustrator. </figcaption>
+        <figcaption> <span> 04. </span> DIGITAL IMPACT: Unfortunately this site is not live yet, but it will be full of pop! This is a mockup done in Adobe Illustrator. </figcaption>
+      </div>
+
+      <div className="individualProject">
+        <img src={'/static/grant-pro-group.PNG'} alt="" />
+        <figcaption> <span> 05. </span><a href="https://www.grantprogroup.com/" target="_blank">GRANTS DONE RIGHT</a>: this site used to have multiple pages and looked a little outdated. We did a quick refresh by making it a single-scroller for mobile users, adding some cute hand-made icons, and giving it a slightly sleeker UI. This is a Wix site.</figcaption>
       </div>
 
       <div className="individualProject">
@@ -47,13 +49,18 @@ export default () => (
 
       <div className="individualProject">
         <img src="http://78.media.tumblr.com/77cf7ccc5838d9dda805678bd4211abb/tumblr_ol0xbuPc2A1uf7do3o3_540.png" alt="" />
-        <figcaption> <span> 07. </span> WIREFRAMING: This is what the birth of a website typically looks like! Hard to believe from these doodles, but the finished version took silver medal at the National Skills USA 2016 competition. See my mockups on my <a href="http://astrthought.tumblr.com/post/156947727581/my-teammate-and-i-took-the-silver-medal-at" target="_blank"> Tumblr Portfolio </a>.</figcaption>
+        <figcaption> <span> 07. </span> WIREFRAMING: This is what the birth of a website typically looks like! Hard to believe from these doodles, but the finished version took the silver medal at the National Skills USA 2016 competition. See my mockups on my <a href="http://astrthought.tumblr.com/post/156947727581/my-teammate-and-i-took-the-silver-medal-at" target="_blank">Tumblr Portfolio</a>.</figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/natlpark.PNG'} alt="" />
         <img src={'/static/Wylder-Icon-Key.png'} alt="" />
-        <figcaption> <span> 0. </span> ICONS: I adore creating icons! Whether for web or print. They are a great mini-logo sort of challenge.</figcaption>
+        <figcaption> <span> 08. </span> ICONS: I adore creating icons! Whether for web or print. They are a great mini-logo sort of challenge.</figcaption>
+      </div>
+
+      <div className="individualProject">
+        <img src={'/static/snazzy.PNG'} alt="" />
+        <figcaption> <span> 09. </span> JSON: I needed a Google-Map theme for an app I was working on, so I designed this in using JSON. You can test and use my map on <a href="https://snazzymaps.com/style/113526/perfect-form" target="_blank">Snazzy Maps</a>.</figcaption>
       </div>
 
   </wrapper>
@@ -64,7 +71,8 @@ export default () => (
         Glad you asked! I typically work on big projects (a few of which are still being built) that take lots of time and typically include other designers. Here are some examples of sites I have worked on, without designing the entire thing:
     </p>
     <ul>
-      <li><a href="http://www.wyldergoods.com" target="_blank"> Wylder</a> - sustainable and ethical Womens outdoor shop</li>
+      <li><a href="http://www.wyldergoods.com" target="_blank"> Wylder</a> - sustainable and ethical Women's outdoor shop
+The Olive Branch - fair trade shop. I updated inventory and took product photography.</li>
       <li><a href="https://the-olive-branch.shoplightspeed.com/" target="_blank"> The Olive Branch</a> - fair trade shop. I updated inventory and took product photography.</li>
       <li><a href="https://accessrvrental.com/rv-trip-planner-utah/" target="_blank"> Access RV Rental</a> - RV rentals. Many of the banners (jumbotron) are my design, and also check out the cool icons I made!</li>
       <li> And, of course, this one! I built it with Next.js and my super knowledge of JSX and JSS.</li>

@@ -21,7 +21,7 @@ export default () => (
 
       <div className="individualProject">
         <img src={'/static/seuss-quote.png'} alt="" />
-        <figcaption> <span> 02. </span> THOUGHFULLY: here is an example of a simple <a href="https://www.instagram.com/p/BTPFq-OApvg/?taken-by=volunteermso" target="_blank" >Instagram</a> square that was part of the National Volunteer Week campaign. </figcaption>
+        <figcaption> <span> 02. </span> THOUGHTFULLY: here is an example of a simple <a href="https://www.instagram.com/p/BTPFq-OApvg/?taken-by=volunteermso" target="_blank" >Instagram</a> square that was part of the National Volunteer Week campaign. </figcaption>
       </div>
 
       <div className="individualProject">
@@ -40,7 +40,7 @@ export default () => (
       </div>
 
       <div className="individualProject">
-        <img src={'/static/Code-Rangers-Dark.jpg'} alt="" />
+        <img src="https://78.media.tumblr.com/d372b54d1cfc9babcfd4701f3cf50572/tumblr_oynkrli8Dn1uf7do3o1_540.jpg" alt="" />
         <figcaption> <span> 06. </span> GEN Z STYLE: Code Rangers is a non-profit organization bringing code classes to youth in Montana. The promotional poster helps kids visually connect with the opportunity.</figcaption>
       </div>
 
@@ -51,7 +51,7 @@ export default () => (
 
       <div className="individualProject">
         <img src={'/static/Buttons-test.png'} alt="" />
-        <figcaption> <span> > 08. </span>BUTTONS: what better way to get noticed in a community than to put physical things like buttons into circulation? I designed an icon for eight different sectors of the non-profit world. The idea was that people could come by a booth, pick a button that represented what they cared about most, and end up on some piece of cloth (like a jacket or backpack) that would not only remind them to volunteer,but also spark conversations with others. </figcaption>
+        <figcaption> <span> > 08. </span>BUTTONS: what better way to get noticed in a community than to put physical things like buttons into circulation? I designed an icon for eight different sectors of the non-profit world. The idea was that people could come by a booth, pick a button that represented what they cared about most, and end up on some piece of cloth (like a jacket or backpack) that would not only remind them to volunteer but also spark conversations with others.</figcaption>
       </div>
 
       <div className="individualProject">

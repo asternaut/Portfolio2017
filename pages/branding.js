@@ -14,13 +14,15 @@ export default () => (
 
     <wrapper className="Grid">
     <div className="individualProject">
+      <img src={'/static/hspc-logo-comp.png'} alt="" />
       <img src={'/static/HPSC-red.png'} alt="" />
-      <figcaption> <span> 01. </span> TECH MEETS HEALTH: the Health Services Platform Consortiuum (say that 3 times) was looking for a little logo love. They specialize in bringing together heath and medicine orient software for a fun plug-n-play environment.We are still in the process of creating the perfect logo, but I think this one is pretty sick!</figcaption>
+      <figcaption> <span> 01. </span> TECH MEETS HEALTH: the Health Services Platform Consortium (say that 3 times) was looking for a little logo love. They specialize in bringing together health and medicine oriented software for a fun plug-n-play environment.We are still in the process of creating the perfect logo: these are two variations.</figcaption>
     </div>
 
     <div className="individualProject">
       <img src={'/static/cr-demo.png'} alt="" />
-      <figcaption> <span> 02. </span>MAKING CODE COOL: techy people are geeky people - trust me, Im one. But I (and all geeks I know) are also super awesome people! I wanted to show how cool coding makes you feel. Thus an edgy, trendy set of logos and design elements. The target audience, after all, is teenagers.</figcaption>
+      <figcaption> <span> 02. </span>MAKING CODE COOL:techy people are geeky people - trust me, I'm one. But I (and all geeks I know) are also super awesome people! I wanted to show how cool coding makes you feel. Thus an edgy, trendy set of logos and design elements. The target audience, after all, is teenagers.
+</figcaption>
     </div>
 
     <div className="individualProject">
@@ -30,7 +32,8 @@ export default () => (
 
     <div className="individualProject">
       <img src={'/static/Wylder-Logo-Mark-mtn.png'} alt="" />
-      <figcaption> <span> 04. </span> GET CONCISE:  your logo is your brands face. Wylder has a lovely logotype, but is looking for a more succinct way to represent their brand. We are working hard at make a beautiful, timeless, recognizable design. Here is one of my ideas.</figcaption>
+      <figcaption> <span> 04. </span> GET CONCISE: your logo is your brands face. Wylder has a lovely logotype but is looking for a more succinct way to represent their brand. We are working hard to make a beautiful, timeless, recognizable design. Here is one of my ideas.
+What can you do for brands?</figcaption>
     </div>
   </wrapper>
 
