@@ -29,7 +29,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = function () {
   return _react2.default.createElement(_MyLayout2.default, null, _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Montserrat:400,700', rel: 'stylesheet', 'data-jsx': 3420518325
   }), _react2.default.createElement('div', { className: 'firstImipression', 'data-jsx': 3420518325
-  }, _react2.default.createElement('img', { src: 'http://78.media.tumblr.com/a5c883c6584b734e64cbde5cec58273c/tumblr_oj0fqpblZ21uf7do3o1_1280.jpg', width: '300px', alt: 'girl with hair blowing drawing', 'data-jsx': 3420518325
+  }, _react2.default.createElement('img', { src: '/static/Snapchat-487113128-01.jpeg', width: '300px', alt: 'profile picture of sienna', 'data-jsx': 3420518325
   }), _react2.default.createElement('div', { className: 'greeting', 'data-jsx': 3420518325
   }, _react2.default.createElement('h1', {
     'data-jsx': 3420518325

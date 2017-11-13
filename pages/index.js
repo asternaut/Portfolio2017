@@ -8,7 +8,7 @@ export default () => (
     <div className="firstImipression">
 { /*     <img src="https://tse4.mm.bing.net/th?id=OIP.v3MO-UA5b5GtFpJDpxEsaQEsEs&pid=15.1" alt="astronaut illustration"/>
 */}
-        <img src="http://78.media.tumblr.com/a5c883c6584b734e64cbde5cec58273c/tumblr_oj0fqpblZ21uf7do3o1_1280.jpg" width="300px" alt="girl with hair blowing drawing"/>
+        <img src={'/static/Snapchat-487113128-01.jpeg'} width="300px" alt="profile picture of sienna"/>
         <div className="greeting">
           <h1> hi! </h1>
           <div>

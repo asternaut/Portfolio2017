@@ -14,7 +14,7 @@ const Header = () => (
           <a><h1>Sienna Scheid </h1></a>
         </Link>
         <Link href="/contact">
-          <a>Radio Me</a>
+          <a>Contact</a>
         </Link>
       </div>
     </div>
@@ -29,7 +29,7 @@ const Header = () => (
             <a>Profile</a>
           </Link>
           <Link href="/contact">
-            <a>Radio Me</a>
+            <a>Contact</a>
           </Link>
         </div>
 
