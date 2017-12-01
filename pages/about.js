@@ -3,6 +3,7 @@ import Markdown from 'react-markdown'
 
 export default () => (
 <Layout>
+<img src="https://media-exp1.licdn.com/media/AAEAAQAAAAAAAAtUAAAAJDU4ODlmYTlhLTA2NmQtNDBjMS1iNDViLTNlOTg1NjQzNDQyYw.jpg" />
 <h1> Sienna Scheid :: Profile </h1>
   <div className="aboutWrapper">
 
@@ -12,9 +13,9 @@ export default () => (
 - Early 20's
 - Salt Lake City native (silicon slopes)
 - Gemini
+- Serial sunbather
 - Hip and earthy
-- Sunbather
-- Former DJ (yea boi!)
+- Former college radio DJ
 - Bike // Ski // Run // Climb // Be Kind
 - Second home is Montana <3
       `}/>
@@ -38,10 +39,14 @@ export default () => (
         <a href="http://astrthought.tumblr.com/"target="_blank"> tumblr </a>
         <a href="https://soundcloud.com/sienna-scheid"target="_blank"> soundcloud </a>
       </div>
+          <img className="signature" src={'/static/signature.png'} />
     </div>
   </div>
 
     <style jsx global>{`
+      img{
+        width: 100%;
+      }
       h1{
         text-transform: uppercase;
       }
@@ -71,6 +76,11 @@ export default () => (
 
       .links a{
         padding: 0 3px;
+      }
+
+      .signature{
+        width: 151px;
+        padding-top: 25px;
       }
 
         @media (max-width: 890px) {

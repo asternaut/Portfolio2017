@@ -31,9 +31,8 @@ export default () => (
     </div>
 
     <div className="individualProject">
-      <img src={'/static/Wylder-Logo-Mark-mtn.png'} alt="" />
-      <figcaption> <span> 04. </span> GET CONCISE: your logo is your brands face. Wylder has a lovely logotype but is looking for a more succinct way to represent their brand. We are working hard to make a beautiful, timeless, recognizable design. Here is one of my ideas.
-What can you do for brands?</figcaption>
+      <img src={'/static/di-logo.png'} alt="" />
+      <figcaption> <span> 04. </span> HAVE FUN: logo design is HARD. I typically fill up pages with rejected doodles. That shouldn't mean it can't be fun! This logo design was inspired, oddly enough, by comic books and 3-D glasses. I used really bold elements, bright retro colors, and subtle halftone patterns for this design.</figcaption>
     </div>
   </wrapper>
 

@@ -51,12 +51,12 @@ exports.default = function () {
   }, ' ', _react2.default.createElement('span', {
     'data-jsx': 2439205373
   }, ' > 03. '), 'CLOTHING THAT DOES GOOD: way back when I helped build a little clothing collective. As a B Corp, building our community was part of our profit model. I wanted the logo to symbolize movement, passion, and style. We settled on simple black and white for elegance, a square frame for structure, and thick lines for sturdiness.')), _react2.default.createElement('div', { className: 'individualProject', 'data-jsx': 2439205373
-  }, _react2.default.createElement('img', { src: '/static/Wylder-Logo-Mark-mtn.png', alt: '', 'data-jsx': 2439205373
+  }, _react2.default.createElement('img', { src: '/static/di-logo.png', alt: '', 'data-jsx': 2439205373
   }), _react2.default.createElement('figcaption', {
     'data-jsx': 2439205373
   }, ' ', _react2.default.createElement('span', {
     'data-jsx': 2439205373
-  }, ' 04. '), ' GET CONCISE: your logo is your brands face. Wylder has a lovely logotype but is looking for a more succinct way to represent their brand. We are working hard to make a beautiful, timeless, recognizable design. Here is one of my ideas. What can you do for brands?'))), _react2.default.createElement('div', { className: 'faq', 'data-jsx': 2439205373
+  }, ' 04. '), ' HAVE FUN: logo design is HARD. I typically fill up pages with rejected doodles. That shouldn\'t mean it can\'t be fun! This logo design was inspired, oddly enough, by comic books and 3-D glasses. I used really bold elements, bright retro colors, and subtle halftone patterns for this design.'))), _react2.default.createElement('div', { className: 'faq', 'data-jsx': 2439205373
   }, _react2.default.createElement('h3', {
     'data-jsx': 2439205373
   }, 'What can you do for brands?'), _react2.default.createElement('ul', {
