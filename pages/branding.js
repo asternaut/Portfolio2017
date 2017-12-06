@@ -45,6 +45,37 @@ export default () => (
     </ul>
   </div>
 
+
+    <div className="faq">
+      <h3> Where are the rest of your sites? </h3>
+      <p>
+          Glad you asked! I typically work on big projects (a few of which are still being built) that take lots of time and typically include other designers. Here are some examples of sites I have worked on, without designing the entire thing:
+      </p>
+      <ul>
+        <li><a href="http://www.wyldergoods.com" target="_blank"> Wylder</a> - sustainable and ethical Women's outdoor shop
+  The Olive Branch - fair trade shop. I updated inventory and took product photography.</li>
+        <li><a href="https://the-olive-branch.shoplightspeed.com/" target="_blank"> The Olive Branch</a> - fair trade shop. I updated inventory and took product photography.</li>
+        <li><a href="https://accessrvrental.com/rv-trip-planner-utah/" target="_blank"> Access RV Rental</a> - RV rentals. Many of the banners (jumbotron) are my design, and also check out the cool icons I made!</li>
+        <li> And, of course, this one! I built it with Next.js and my super knowledge of JSX and JSS.</li>
+      </ul>
+
+      <h3>What kind of sites can you build?</h3>
+      <ul>
+        <li>Wordpress</li>
+        <li>Standard HTML/CSS/JS</li>
+        <li>Small React/Next.js apps</li>
+        <li> Responsive, mobile-first / mobile-friendly </li>
+      </ul>
+
+      <h3> Why are you a web designer? </h3>
+      <p>
+        I started with graphic design but became entranced by the UX that web design offers. I love building things that are meant to be interacted with, tested, and changed. There are always new exciting ways to create websites and apps. I love learning and improving, so it's a natural fit!
+      </p>
+      <p>
+        I have an AAS of Design (graduated 2016), Web Emphasis and attended a Full Stack Javascript Bootcamp (2017).
+      </p>
+      </div>
+
   <div className="anchors">
     <span> SEE MORE: </span>
     <Link href="/web-design">Web Design</Link>

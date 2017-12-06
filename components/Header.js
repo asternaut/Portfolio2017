@@ -10,14 +10,8 @@ const Header = () => (
       <a><h1>Sienna Scheid </h1></a>
     </Link>
       <div className="linkStyle">
-      <Link href="/web-design">
-        <a>Web Design</a>
-      </Link>
-      <Link href="/marketing">
-        <a>Marketing</a>
-      </Link>
-      <Link href="/branding">
-        <a>Branding</a>
+      <Link href="/work">
+        <a>Work</a>
       </Link>
         <Link href="/about">
           <a>About</a>
@@ -34,14 +28,8 @@ const Header = () => (
       </Link>
 
       <div className="linkStyle">
-      <Link href="/web-design">
-        <a>Web Design</a>
-      </Link>
-      <Link href="/marketing">
-        <a>Marketing</a>
-      </Link>
-      <Link href="/branding">
-        <a>Branding</a>
+      <Link href="/work">
+        <a>Work</a>
       </Link>
         <Link href="/about">
           <a>About</a>
@@ -55,13 +43,14 @@ const Header = () => (
 
       <style jsx global>{`
           h1{
-            font-weight: 700;
+            font-weight: 100;
             font-size: 227%;
+            color: #F9FCFF;
           }
 
           .navWrapperDesktop{
-            background: #F9FCFF;
-            text-transform: uppercase;
+            background: #FF6978;
+            text-transform: lowercase;
             display: flex
             font-family: 'Montserrat', sans-serif;
             padding: 3% 6%;
@@ -79,15 +68,15 @@ const Header = () => (
             align-items: center;
             justify-content: space-around;
             flex-direction: row;
-            text-transform: uppercase;
+            text-transform: lowercase;
             letter-spacing: 1px;
             font-weight: bold;
-            width: 60%;
+            width: 40%;
           }
 
           .linkStyle a {
             font-weight: 100;
-            color: #011627;
+            color: #F9FCFF;
           }
 
           @media (max-width: 1100px) {
@@ -95,8 +84,10 @@ const Header = () => (
               display: none;
             }
             .navWrapperMobile{
-              display: flex;
-              text-transform: uppercase;
+              background: #FF6978;
+              text-transform: lowercase;
+              display: flex
+              font-family: 'Montserrat', sans-serif;
               flex-wrap: wrap;
               justify-content: center;
               flex-direction: column;

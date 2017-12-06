@@ -3,7 +3,6 @@ import Footer from './Footer'
 import Markdown from 'react-markdown'
 
 const layoutStyle = {
-  padding: '4% 14%',
   margin: '0',
   background: '#F9FCFF',
   color: '#011627',

@@ -30,11 +30,6 @@ const ProjectLayout = () => (
       </div>
     </wrapper>
 
-    <div className="callToAction">
-      <Link href="/web-design"> I Wanna See More Web Design </Link>
-      <div> </div>
-    </div>
-
       <wrapper className="projectWrapper">
 
         <div className="projectContentsColumn">
@@ -77,11 +72,6 @@ const ProjectLayout = () => (
           </a>
         </div>
       </wrapper>
-
-      <div className="callToAction">
-        <Link href="/marketing"> Show Me More Marketing Design! </Link>
-        <div> </div>
-      </div>
 
         <wrapper className="projectWrapper">
 
@@ -126,10 +116,6 @@ const ProjectLayout = () => (
           </div>
         </wrapper>
 
-        <div className="callToAction">
-          <Link  href="/branding"> More Branding Please! </Link>
-          <div> </div>
-        </div>
 
     <style jsx>{`
       @import url('https://rsms.me/inter/inter-ui.css');
@@ -168,20 +154,6 @@ const ProjectLayout = () => (
         margin-bottom: 40px;
       }
 
-      .callToAction{
-        text-align: center;
-        width: fit-content;
-        margin: 0 auto;
-        padding-bottom: 20px;
-      }
-      .callToAction div {
-        border-bottom: 2px solid #ff6978;
-        padding-top: 4px;
-      }
-      .callToAction a:hover{
-        color: #FF6978 !important;
-        transition: all 0.2s ease;
-      }
 
       .lightBox{
         position: fixed;
