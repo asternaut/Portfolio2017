@@ -7,7 +7,6 @@ const layoutStyle = {
   margin: '0',
   background: '#F9FCFF',
   color: '#011627',
-  fontFamily: 'Droid Sans Mono, sans-serif',
   minHeight: '100vh',
   position: 'relative',
 }
@@ -26,8 +25,9 @@ const Layout = (props) => (
 
     <style jsx global>{`
         body {
+            @import url('https://rsms.me/inter/inter-ui.css');
           margin: 0;
-          font-family: 'Droid Sans Mono', sans-serif;
+          font-family: 'Inter UI', sans-serif;
           color: #0A100D;
           background: #F9FCFF;
           padding: 0;

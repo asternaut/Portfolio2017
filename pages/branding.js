@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default () => (
   <Layout>
     <Link href="/index">
-      <a>← Back to mission log</a>
+      <a className="backArrow">←</a>
     </Link>
 
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Montserrat:400,700" rel="stylesheet" />
@@ -27,7 +27,7 @@ export default () => (
 
     <div className="individualProject">
       <img src="http://78.media.tumblr.com/8191c91d7b4c83326b2341c7774cc607/tumblr_onn9xpOM1W1uf7do3o1_1280.jpg" alt="" />
-      <figcaption> <span> > 03. </span>CLOTHING THAT DOES GOOD: way back when I helped build a little clothing collective. As a B Corp, building our community was part of our profit model. I wanted the logo to symbolize movement, passion, and style. We settled on simple black and white for elegance, a square frame for structure, and thick lines for sturdiness.</figcaption>
+      <figcaption> <span> 03. </span>CLOTHING THAT DOES GOOD: way back when I helped build a little clothing collective. As a B Corp, building our community was part of our profit model. I wanted the logo to symbolize movement, passion, and style. We settled on simple black and white for elegance, a square frame for structure, and thick lines for sturdiness.</figcaption>
     </div>
 
     <div className="individualProject">
@@ -53,27 +53,38 @@ export default () => (
 
 
     <style jsx>{`
+      @import url('https://rsms.me/inter/inter-ui.css');
+
+      .backArrow{
+        padding: 0px 5px;
+        border-radius: 42px;
+        font-size: 18pt;
+        background:#5d6a755c;
+        color: white;
+        position: fixed;
+        transition: transform 1s;
+      }
+      .backArrow:hover{
+          transform: translate(-5px, 0px);
+      }
+
       h1{
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 5px;
-        font-family: 'Droid Sans Mono', sans-serif;
+        font-family: 'Inter UI', sans-serif;
       }
 
       .individualProject{
         width: 60%;
-        padding-bottom: 40px;
+        padding-bottom: 110px;
         margin: 0 auto;
       }
       img{
         width: 100%;
-        -webkit-box-shadow: 0px 0px 23px 0px rgba(50, 50, 50, 0.33);
-        -moz-box-shadow:    0px 0px 23px 0px rgba(50, 50, 50, 0.33);
-        box-shadow:         0px 0px 23px 0px rgba(50, 50, 50, 0.33);
       }
       figcaption{
         padding: 10px 15px;
-        border: 1px solid #E3E6E8;
         font-size: 10pt;
         line-height: 1.5em;
       }

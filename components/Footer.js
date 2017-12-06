@@ -35,6 +35,7 @@ const Footer = () => (
       </div>
 
       <style jsx>{`
+          @import url('https://rsms.me/inter/inter-ui.css');
         .footerPosition{
           width: 100%;
           bottom: 0;
@@ -42,7 +43,7 @@ const Footer = () => (
 
         .footerStyle{
           background: #011627;
-          font-family: 'Droid Sans Mono', sans-serif;
+          font-family: 'Inter UI', sans-serif;
           padding: 2% 5% 5px 5%;
           color: #5D6A75;
         }

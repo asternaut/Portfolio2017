@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default () => (
   <Layout>
     <Link href="/index">
-      <a>← Back to mission log</a>
+      <a className="backArrow">←</a>
     </Link>
 
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Montserrat:400,700" rel="stylesheet" />
@@ -16,51 +16,52 @@ export default () => (
 
 
       <div className="individualProject">
-        <img src={'/static/ppbd-capture.png'} alt="" />
-        <figcaption> <span> 01. </span><a href="https://pressplayonthebryantsday.com/" target="_blank">WEDDING SITE</a>:  this cute couple wanted a super simple Wordpress to invite their friends and family to their wedding. We worked quickly and had this up in less than a week! It was a success and they happily celebrated their wedding day, worry-free.</figcaption>
-      </div>
-
-      <div className="individualProject">
-        <img src={'/static/rvrd.png'} alt="" />
-        <figcaption> <span> 02. </span><a href="http://rvrd.org/the-experience/" target="_blank">TAKE THE PERFECT TRIP</a>: while I am not a huge fan of RVing, I loved building a Wordpress site to help people design their perfect vacation (because I definitely love those). This site is 100% my design, and full of goodies. I even built out the Pinterest. Who knows, maybe you will find it useful! </figcaption>
-      </div>
-
-      <div className="individualProject">
         <img src={'/static/Marketplace-Mission-Layout.png'} alt="" />
-        <figcaption> <span> 03. </span> TRANSFORMING <a href="http://wyldergoods.com" target="_blank"> WYLDER</a>: Using Shopify/Liquid, I am in the process of updating and renovating many of Wylders pages!! </figcaption>
+        <figcaption> <span> 01. </span> TRANSFORMING <a href="http://wyldergoods.com" target="_blank"> WYLDER</a>: Using Shopify/Liquid, I am in the process of updating and renovating many of Wylders pages!! </figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/web-layout-pop.png'} alt="" />
-        <figcaption> <span> 04. </span> DIGITAL IMPACT: Unfortunately this site is not live yet, but it will be full of pop! This is a mockup done in Adobe Illustrator. </figcaption>
+        <figcaption> <span> 02. </span> DIGITAL IMPACT: Unfortunately this site is not live yet, but it will be full of pop! This is a mockup done in Adobe Illustrator. </figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/grant-pro-group.PNG'} alt="" />
-        <figcaption> <span> 05. </span><a href="https://www.grantprogroup.com/" target="_blank">GRANTS DONE RIGHT</a>: this site used to have multiple pages and looked a little outdated. We did a quick refresh by making it a single-scroller for mobile users, adding some cute hand-made icons, and giving it a slightly sleeker UI. This is a Wix site.</figcaption>
+        <figcaption> <span> 03. </span><a href="https://www.grantprogroup.com/" target="_blank">GRANTS DONE RIGHT</a>: this site used to have multiple pages and looked a little outdated. We did a quick refresh by making it a single-scroller for mobile users, adding some cute hand-made icons, and giving it a slightly sleeker UI. This is a Wix site.</figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/Artboard 1 copy.png'} alt="" />
         <img src={'/static/Artboard 4 copy 3.png'} alt="" />
         <img src={'/static/Artboard 4 copy.png'} alt="" />
-        <figcaption> <span> 06. </span> FREIGHT MONSTER: Here is a glimpse into a site I designed. It is currently in the works, so these are some of my mock-ups. They were done in Illustrator. I designed 100% of this, even the icons! This shows some UX/UI, depicting the navigation on desktop and mobile. </figcaption>
+        <figcaption> <span> 04. </span> FREIGHT MONSTER: Here is a glimpse into a site I designed. It is currently in the works, so these are some of my mock-ups. They were done in Illustrator. I designed 100% of this, even the icons! This shows some UX/UI, depicting the navigation on desktop and mobile. </figcaption>
       </div>
 
       <div className="individualProject">
         <img src="http://78.media.tumblr.com/77cf7ccc5838d9dda805678bd4211abb/tumblr_ol0xbuPc2A1uf7do3o3_540.png" alt="" />
-        <figcaption> <span> 07. </span> WIREFRAMING: This is what the birth of a website typically looks like! Hard to believe from these doodles, but the finished version took the silver medal at the National Skills USA 2016 competition. See my mockups on my <a href="http://astrthought.tumblr.com/post/156947727581/my-teammate-and-i-took-the-silver-medal-at" target="_blank">Tumblr Portfolio</a>.</figcaption>
+        <img src="http://78.media.tumblr.com/f2b88a1a69060d3f8cd4f9d8e87ad24a/tumblr_ol0xbuPc2A1uf7do3o1_1280.png" alt="" />
+        <figcaption> <span> 05. </span> WIREFRAMING: This is what the birth of a website typically looks like! Hard to believe from these doodles, but the finished version took the silver medal at the National Skills USA 2016 competition. See more of my mockups on my <a href="http://astrthought.tumblr.com/post/156947727581/my-teammate-and-i-took-the-silver-medal-at" target="_blank">Tumblr Portfolio</a>.</figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/natlpark.PNG'} alt="" />
         <img src={'/static/Wylder-Icon-Key.png'} alt="" />
-        <figcaption> <span> 08. </span> ICONS: I adore creating icons! Whether for web or print. They are a great mini-logo sort of challenge.</figcaption>
+        <figcaption> <span> 06. </span> ICONS: I adore creating icons! Whether for web or print. They are a great mini-logo sort of challenge.</figcaption>
       </div>
 
       <div className="individualProject">
         <img src={'/static/snazzy.PNG'} alt="" />
-        <figcaption> <span> 09. </span> JSON: I needed a Google-Map theme for an app I was working on, so I designed this in using JSON. You can test and use my map on <a href="https://snazzymaps.com/style/113526/perfect-form" target="_blank">Snazzy Maps</a>.</figcaption>
+        <figcaption> <span> 07. </span> JSON: I needed a Google-Map theme for an app I was working on, so I designed this in using JSON. You can test and use my map on <a href="https://snazzymaps.com/style/113526/perfect-form" target="_blank">Snazzy Maps</a>.</figcaption>
+      </div>
+
+      <div className="individualProject">
+        <img src={'/static/ppbd-capture.png'} alt="" />
+        <figcaption> <span> 08. </span><a href="https://pressplayonthebryantsday.com/" target="_blank">WEDDING SITE</a>:  this cute couple wanted a super simple Wordpress to invite their friends and family to their wedding. We worked quickly and had this up in less than a week! It was a success and they happily celebrated their wedding day, worry-free.</figcaption>
+      </div>
+
+      <div className="individualProject">
+        <img src={'/static/rvrd.png'} alt="" />
+        <figcaption> <span> 09. </span><a href="http://rvrd.org/the-experience/" target="_blank">TAKE THE PERFECT TRIP</a>: while I am not a huge fan of RVing, I loved building a Wordpress site to help people design their perfect vacation (because I definitely love those). This site is 100% my design, and full of goodies. I even built out the Pinterest. Who knows, maybe you will find it useful! </figcaption>
       </div>
 
   </wrapper>
@@ -102,27 +103,38 @@ The Olive Branch - fair trade shop. I updated inventory and took product photogr
     </div>
 
     <style jsx>{`
+      @import url('https://rsms.me/inter/inter-ui.css');
+
+      .backArrow{
+        padding: 0px 5px;
+        border-radius: 42px;
+        font-size: 18pt;
+        background: #5d6a755c;
+        color: white;
+        position: fixed;
+        transition: transform 1s;
+      }
+      .backArrow:hover{
+          transform: translate(-5px, 0px);
+      }
+
       h1{
         text-align: center;
         text-transform: uppercase;
         letter-spacing: 5px;
-        font-family: 'Droid Sans Mono', sans-serif;
+        font-family: 'Inter UI', sans-serif;
       }
 
       .individualProject{
         width: 60%;
-        padding-bottom: 40px;
+        padding-bottom: 110px;
         margin: 0 auto;
       }
       img{
         width: 100%;
-        -webkit-box-shadow: 0px 0px 23px 0px rgba(50, 50, 50, 0.33);
-        -moz-box-shadow:    0px 0px 23px 0px rgba(50, 50, 50, 0.33);
-        box-shadow:         0px 0px 23px 0px rgba(50, 50, 50, 0.33);
       }
       figcaption{
         padding: 10px 15px;
-        border: 1px solid #E3E6E8;
         font-size: 10pt;
         line-height: 1.5em;
       }

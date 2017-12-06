@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default () => (
   <Layout>
     <Link href="/index">
-      <a>← Back to mission log</a>
+      <a className="backArrow">←</a>
     </Link>
 
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Montserrat:400,700" rel="stylesheet" />
@@ -64,6 +64,11 @@ export default () => (
         <figcaption> <span> > 10. </span>WEDDING INVITATION: a destination Colorado mountain wedding begs for an invitation full of watercolor-y etherealness and hand-painted scripts. I stuck to their wedding colors here (pastel pink and blue). I painted everything individually and then compiled the layers in photoshop. I was so pleased that this was a big hit! </figcaption>
       </div>
 
+      <div className="individualProject">
+        <img src="http://78.media.tumblr.com/3bebdadb0cab7786efea51ed5a1b56e5/tumblr_okgo9529qq1uf7do3o1_1280.jpg" alt=""/>
+        <figcaption> <span> 11. </span>PLAYFUL: this is something I created for fun. It's a concept for a volunteer fair poster. </figcaption>
+      </div>
+
   </wrapper>
 
   <div className="faq">
@@ -105,27 +110,38 @@ export default () => (
 
 
   <style jsx>{`
+    @import url('https://rsms.me/inter/inter-ui.css');
+
+    .backArrow{
+      padding: 0px 5px;
+      border-radius: 42px;
+      font-size: 18pt;
+      background: #5d6a755c;
+      color: white;
+      position: fixed;
+      transition: transform 1s;
+    }
+    .backArrow:hover{
+        transform: translate(-5px, 0px);
+    }
+
     h1{
       text-align: center;
       text-transform: uppercase;
       letter-spacing: 5px;
-      font-family: 'Droid Sans Mono', sans-serif;
+      font-family: 'Inter UI', sans-serif;
     }
 
     .individualProject{
       width: 60%;
-      padding-bottom: 40px;
+      padding-bottom: 110px;
       margin: 0 auto;
     }
     img{
       width: 100%;
-      -webkit-box-shadow: 0px 0px 23px 0px rgba(50, 50, 50, 0.33);
-      -moz-box-shadow:    0px 0px 23px 0px rgba(50, 50, 50, 0.33);
-      box-shadow:         0px 0px 23px 0px rgba(50, 50, 50, 0.33);
     }
     figcaption{
       padding: 10px 15px;
-      border: 1px solid #E3E6E8;
       font-size: 10pt;
       line-height: 1.5em;
     }

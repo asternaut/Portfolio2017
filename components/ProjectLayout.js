@@ -4,15 +4,6 @@ const ProjectLayout = () => (
   <div>
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Montserrat:400,700" rel="stylesheet" />
 
-  <div className="anchors">
-    <span> JUMP TO: </span>
-    <Link href="/web-design">Web Design</Link>
-    <Link href="/marketing">Marketing</Link>
-    <Link href="/branding">Branding</Link>
-  </div>
-  <h1 href="#web"> WORKLOG: WEB DESIGN</h1>
-
-
 
     <wrapper className="projectWrapper">
 
@@ -44,8 +35,6 @@ const ProjectLayout = () => (
       <div> </div>
     </div>
 
-
-    <h1  href="#mark"> WORKLOG: MARKETING</h1>
       <wrapper className="projectWrapper">
 
         <div className="projectContentsColumn">
@@ -94,8 +83,6 @@ const ProjectLayout = () => (
         <div> </div>
       </div>
 
-
-      <h1  href="#brand"> WORKLOG: BRANDING</h1>
         <wrapper className="projectWrapper">
 
           <div className="projectContentsColumn1">
@@ -145,26 +132,17 @@ const ProjectLayout = () => (
         </div>
 
     <style jsx>{`
+      @import url('https://rsms.me/inter/inter-ui.css');
       h1{
         margin-top: 6%;
         text-align: center;
       }
       img{
         width: 100%;
-        -webkit-box-shadow: 0px 0px 23px 0px rgba(50, 50, 50, 0.33);
-        -moz-box-shadow:    0px 0px 23px 0px rgba(50, 50, 50, 0.33);
-        box-shadow:         0px 0px 23px 0px rgba(50, 50, 50, 0.33);
+
       }
       a{
         cursor: pointer;
-      }
-
-      .anchors{
-        display: flex;
-        width: 60%;
-        margin: 0 auto;
-        justify-content: space-between;
-        padding: 3% 0;
       }
 
       .projectWrapper{
@@ -194,6 +172,7 @@ const ProjectLayout = () => (
         text-align: center;
         width: fit-content;
         margin: 0 auto;
+        padding-bottom: 20px;
       }
       .callToAction div {
         border-bottom: 2px solid #ff6978;

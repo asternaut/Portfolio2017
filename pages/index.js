@@ -26,7 +26,7 @@ export default () => (
       .firstImipression{
         display: flex;
         align-items: center;
-        margin-bottom: 4%;
+        margin-bottom: 10%;
       }
       .greeting{
         display: flex;
@@ -38,7 +38,7 @@ export default () => (
         height: fit-content;
       }
       .greeting h1{
-        margin: 0 12px 0 0;
+        margin: 0 21px 0 0;
         font-size: 32pt;
       }
       .greeting p{

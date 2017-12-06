@@ -6,12 +6,21 @@ const Header = () => (
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Montserrat:400,700" rel="stylesheet" />
 
     <div className="navWrapperDesktop">
+    <Link href="/index">
+      <a><h1>Sienna Scheid </h1></a>
+    </Link>
       <div className="linkStyle">
+      <Link href="/web-design">
+        <a>Web Design</a>
+      </Link>
+      <Link href="/marketing">
+        <a>Marketing</a>
+      </Link>
+      <Link href="/branding">
+        <a>Branding</a>
+      </Link>
         <Link href="/about">
-          <a>Profile</a>
-        </Link>
-        <Link href="/index">
-          <a><h1>Sienna Scheid </h1></a>
+          <a>About</a>
         </Link>
         <Link href="/contact">
           <a>Contact</a>
@@ -24,18 +33,25 @@ const Header = () => (
         <a><h1>Sienna Scheid </h1></a>
       </Link>
 
-        <div className="linkStyle">
-          <Link href="/about">
-            <a>Profile</a>
-          </Link>
-          <Link href="/contact">
-            <a>Contact</a>
-          </Link>
+      <div className="linkStyle">
+      <Link href="/web-design">
+        <a>Web Design</a>
+      </Link>
+      <Link href="/marketing">
+        <a>Marketing</a>
+      </Link>
+      <Link href="/branding">
+        <a>Branding</a>
+      </Link>
+        <Link href="/about">
+          <a>About</a>
+        </Link>
+        <Link href="/contact">
+          <a>Contact</a>
+        </Link>
         </div>
 
       </div>
-
-      <p className="navSpan">Graphic + Web Design</p>
 
       <style jsx global>{`
           h1{
@@ -46,39 +62,35 @@ const Header = () => (
           .navWrapperDesktop{
             background: #F9FCFF;
             text-transform: uppercase;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            text-align: center;
+            display: flex
             font-family: 'Montserrat', sans-serif;
+            padding: 3% 6%;
+            justify-content: space-between;
+            width: 88%;
           }
 
           .navWrapperMobile{
             display: none;
           }
 
-          .navSpan{
-            color: #5D6A75;
-            font-family:'Montserrat', sans-serif;
-            margin: 0;
-            text-align: center;
-          }
-
           .linkStyle{
             text-decoration: none;
-            color: #FE5F55;
             display: flex;
             align-items: center;
             justify-content: space-around;
             flex-direction: row;
-            width: 100%;
-            padding: 3% 5% 0% 5%;
             text-transform: uppercase;
-            letter-spacing: 1;
+            letter-spacing: 1px;
             font-weight: bold;
+            width: 60%;
           }
 
-          @media (max-width: 890px) {
+          .linkStyle a {
+            font-weight: 100;
+            color: #011627;
+          }
+
+          @media (max-width: 1100px) {
             .navWrapperDesktop{
               display: none;
             }
@@ -87,6 +99,8 @@ const Header = () => (
               text-transform: uppercase;
               flex-wrap: wrap;
               justify-content: center;
+              flex-direction: column;
+              align-items: center;
               text-align: center;
               font-family: 'Montserrat', sans-serif;
             }
@@ -102,6 +116,14 @@ const Header = () => (
               padding-bottom: 30px;
             }
 
+            }
+            @media (max-width: 950px) {
+              .linkStyle{
+                    flex-direction: column;
+              }
+              .linkStyle a{
+                padding-bottom: 12px;
+              }
             }
         `}</style>
     </div>
