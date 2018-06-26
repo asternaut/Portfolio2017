@@ -17,3 +17,4 @@
 2. Run `npm run build`
 3. Run `npm run export`
 4. FTP the contents of your `out` folder
+5. [Full instructions](https://nextjs.org/learn/excel/static-html-export/export-the-index-page)

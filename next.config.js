@@ -4,7 +4,8 @@ module.exports = {
       '/': { page: '/' },
       '/about': { page: '/about' },
       '/contact.js': { page: '/contact' },
-      '/index.js': { page: '/index' }
+      '/index.js': { page: '/index' },
+      '/work.js': { page: '/work' }
     }
   }
 }
