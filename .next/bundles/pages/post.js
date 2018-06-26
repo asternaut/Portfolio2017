@@ -1,0 +1,6 @@
+
+          window.__NEXT_REGISTER_PAGE('/post', function() {
+            var comp = module.exports=webpackJsonp([7],{408:function(e,t,a){e.exports=a(409)},409:function(e,t,a){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}Object.defineProperty(t,"__esModule",{value:!0});var o=a(17),r=n(o),l=a(3),u=n(l),d=a(35),s=n(d),c=a(78),f=n(c);t.default=function(e){return u.default.createElement(s.default,null,u.default.createElement("h1",{"data-jsx":4213069368},e.url.query.title),u.default.createElement("div",{className:"markdown","data-jsx":4213069368},u.default.createElement(f.default,{source:"\n\n1. Favorite font? Montserrat (this typography is Montserrat!)\n2. If I was a Pantone swatch I think I'd be [2225 U](http://68.media.tumblr.com/b0541a2368fed8ec0f33e5d410496bf0/tumblr_ob96x38k851uf7do3o1_400.jpg)\n3. Yes I use a Wacom\n4. CSS over JSS purely because syntax\n5. I think minimalism is overrated\n6. I code in atom but I also like brackets\n\n     "})),u.default.createElement(r.default,{styleId:4213069368,css:".markdown{font-family:'Montserrat'}.markdown a{text-decoration:none;color:grey}.markdown a:hover{opacity:0.6}"}))}}},[408]);
+            return { page: comp.default }
+          })
+        

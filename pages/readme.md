@@ -14,5 +14,6 @@
 
 ## Deploy to static HTML
 1. Create a `next.confog.js` in your root folder - [example](https://www.npmjs.com/package/next#static-html-export)
-2. Run `npm next build`
-3. FTP the contents of your `out` folder
+2. Run `npm run build`
+3. Run `npm run export`
+4. FTP the contents of your `out` folder
