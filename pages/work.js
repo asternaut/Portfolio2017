@@ -2,7 +2,7 @@ import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 
 export default () => (
-  <Layout>
+  <Layout class="margin-wrap">
     <Link href="/index">
       <a className="backArrow">←</a>
     </Link>
@@ -135,6 +135,10 @@ export default () => (
 
     <style jsx>{`
       @import url('https://rsms.me/inter/inter-ui.css');
+
+      wrapper{
+        margin: 1% 5%;
+      }
 
       .backArrow{
         padding: 0px 5px;

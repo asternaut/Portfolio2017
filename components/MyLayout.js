@@ -31,8 +31,10 @@ const Layout = (props) => (
           background: #F9FCFF;
           padding: 0;
           height: 100%;
-
 }
+        .margin-wrap{
+          margin: 1% 5%;
+        }
         }
         ul {
           padding: 0;

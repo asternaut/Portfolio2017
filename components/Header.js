@@ -79,6 +79,10 @@ const Header = () => (
             color: #F9FCFF;
           }
 
+          .linkStyle a:active{
+            font-weight: bold;
+          }
+
           @media (max-width: 1100px) {
             .navWrapperDesktop{
               display: none;

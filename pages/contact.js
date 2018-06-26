@@ -3,25 +3,23 @@ import Markdown from 'react-markdown'
 
 export default () => (
 <Layout>
-<h1> Sienna Scheid :: Contact </h1>
+<div className="margin-wrap">
   <div className="contactWrapper">
-    <p> I would love to be in touch! Please feel free to email me or connect with me on the social media channels provided below!
+    <p> I would love to be in touch! Please feel free to connect with me on the social media channels provided below!
     </p>
-
     <div className="markdown">
       <div className="links">
-        <p> siennascheid@gmail.com </p>
-        <a href="https://twitter.com/sugarcodingit" target="_blank"> twitter </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1fuKtaRNghcJV4T1BKGNfuZwe1kcFZZG8W8mDTtqEkd8iRQ/viewform?usp=sf_link" target="_blank"><strong>email</strong></a>
         <a href="https://www.linkedin.com/in/sienna-scheid-1486a1119/" target="_blank"> linkedin </a>
         <a href="http://astrthought.tumblr.com/" target="_blank"> tumblr </a>
-
+        <a href="https://twitter.com/sugarcodingit" target="_blank"> twitter </a>
       </div>
     </div>
   </div>
-
+</div>
     <style jsx global>{`
-      h1{
-        text-transform: uppercase;
+      .margin-wrap{
+        margin: 3% 5%;
       }
       .aboutWrapper{
         display: flex;
