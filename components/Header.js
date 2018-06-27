@@ -45,11 +45,11 @@ const Header = () => (
           h1{
             font-weight: 100;
             font-size: 227%;
-            color: #F9FCFF;
+            color:  rgb(1, 22, 39);
           }
 
           .navWrapperDesktop{
-            background: #FF6978;
+
             text-transform: lowercase;
             display: flex
             font-family: 'Montserrat', sans-serif;
@@ -76,10 +76,11 @@ const Header = () => (
 
           .linkStyle a {
             font-weight: 100;
-            color: #F9FCFF;
+            color: rgb(1, 22, 39);
+            transform: 0.2s ease font-weight;
           }
 
-          .linkStyle a:active{
+          .linkStyle a:hover{
             font-weight: bold;
           }
 
@@ -88,7 +89,7 @@ const Header = () => (
               display: none;
             }
             .navWrapperMobile{
-              background: #FF6978;
+
               text-transform: lowercase;
               display: flex
               font-family: 'Montserrat', sans-serif;

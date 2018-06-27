@@ -129,6 +129,7 @@ const ProjectLayout = () => (
       }
       a{
         cursor: pointer;
+        text-decoration: none;
       }
 
       .projectWrapper{

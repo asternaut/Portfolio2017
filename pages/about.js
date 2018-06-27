@@ -13,7 +13,7 @@ export default () => (
       <Markdown source={`
 - Graphic + Web Design
 - HTML 5 / CSS 3 / SASS / LESS
-- Adobe AI / PS / ID / Lightroom
+- Adobe AI / PS / ID / XD / Lightroom
 - CMS (Wordpress, Shopify, etc)
 - Git + FTP
 - Experience with Angular/React

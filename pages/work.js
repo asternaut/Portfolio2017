@@ -9,7 +9,7 @@ export default () => (
 
   <link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Montserrat:400,700" rel="stylesheet" />
     <div>
-      <h1> Work </h1>
+      <h1> Websites & UX/UI </h1>
     </div>
 
     <wrapper className="projectWrapper">
@@ -25,24 +25,16 @@ export default () => (
           <figcaption><a href="http://wyldergoods.com" target="_blank"> WYLDER</a>: Using Shopify/Liquid, I am in the process of updating and renovating many of Wylders pages!! </figcaption>
         </a>
 
-      <div className="individualProject">
-        <a href="#img2">
-          <img src={'/static/web-layout-pop.png'} alt="" />
-        </a>
-      </div>
-      <a href="#_" className="lightBox" id="img2">
-        <img src={'/static/web-layout-pop.png'}/>
-        <figcaption> DIGITAL IMPACT: Unfortunately this site is not live yet, but it will be full of pop! This is a mockup done in Adobe Illustrator. </figcaption>
-      </a>
+
 
       <div className="individualProject">
         <a href="#img3">
-          <img src={'/static/HPSC-red.png'} alt="" />
+          <img src={'/static/ppol.png'} alt="" />
         </a>
       </div>
       <a href="#_" className="lightBox" id="img3">
-          <img src={'/static/HPSC-red.png'} alt="" />
-        <figcaption>HSPC: the Health Services Platform Consortium (say that 3 times) was looking for a little logo love. They specialize in bringing together health and medicine oriented software for a fun plug-n-play environment.We are still in the process of creating the perfect logo: these are two variations.</figcaption>
+          <img src={'/static/ppol.png'} alt="" />
+        <figcaption><a href="www.planplusonline.com" target="blank">PlanPlus Online</a> needed a facelift. I took the site and modernized it, making both more welcoming and bold. I also made the information flow more visually, which helped highlight their products and perks.</figcaption>
       </a>
 
       <div className="individualProject">
@@ -57,12 +49,12 @@ export default () => (
 
       <div className="individualProject">
         <a href="#img5">
-        <img src={'/static/Bozeman-Mag-Ad.jpg'} alt="" />
+        <img src={'/static/slcair.png'} alt="" />
         </a>
       </div>
       <a href="#_" className="lightBox" id="img5">
-        <img src={'/static/Bozeman-Mag-Ad.jpg'} alt="" />
-        <figcaption>BIG SKY CODE ACCADEMY: a little web ad for a Montana Based code program. They wanted to appeal to the outdoorsy youthful crowd in Bozeman, hence the rock climber and subtle topography.</figcaption>
+        <img src={'/static/slcair.png'} alt="" />
+        <figcaption><a href="www.slcairprotectors.org" target="_blank">The SLC Air Protectors</a> needed to move their Weebly to a Wordpress to launch a store, and also to give the site a refreshing new look. They provided most of the design, while I built out the site and moved the content. </figcaption>
       </a>
 
     </div>
@@ -71,66 +63,158 @@ export default () => (
 
     <div className="individualProject">
       <a href="#img001">
-        <img src={'/static/wylder-stickers.jpg'} alt="" />
+        <img src={'/static/slt.png'} alt="" />
       </a>
     </div>
     <a href="#_" className="lightBox" id="img001">
-      <img src={'/static/wylder-stickers.jpg'} alt="" />
-      <figcaption>STICKERS: Wylder needed a little promo swag, so we came up with three sticker designs. I went with bold rounded lines and subtle colors for a not-too-feminine and softly-rugged design. <a href="https://www.wyldergoods.com/products/wylder-sticker-pair" target="_blank"> (You can buy them here!)</a></figcaption>
-      </a>
-
-      <div className="individualProject">
-        <a href="#img002">
-            <img src="https://78.media.tumblr.com/d372b54d1cfc9babcfd4701f3cf50572/tumblr_oynkrli8Dn1uf7do3o1_540.jpg" alt="" />
-        </a>
-      </div>
-      <a href="#_" className="lightBox" id="img002">
-        <img src="https://78.media.tumblr.com/d372b54d1cfc9babcfd4701f3cf50572/tumblr_oynkrli8Dn1uf7do3o1_540.jpg" alt="" />
-        <figcaption>YOUTH CODING PROGRAMS: Code Rangers is a non-profit organization bringing code classes to youth in Montana. The promotional poster helps kids visually connect with the opportunity.</figcaption>
+      <img src={'/static/slt.png'} alt="" />
+      <figcaption><a href="https://www.studentloantutor.com/" target="_blank"> Student Loan Tutor</a> had been siteless for some time. They needed a website that would drive conversions, so we worked together to create a simple, information rich web identity. The goal: trustworthy, holistic, and friendly. We made some minor tweaks to the logo, worked on a little rebranding, and developed a web presence they were proud of.</figcaption>
       </a>
 
     <div className="individualProject">
       <a href="#img01">
-      <img src={'/static/National-Volunteer-Week-long.png'} alt="" />
+      <img src={'/static/informant.png'} alt="" />
       </a>
     </div>
     <a href="#_" className="lightBox" id="img01">
-      <img src={'/static/National-Volunteer-Week-long.png'} alt="" />
-        <figcaption>RAISING AWARENESS: this campaign promoted volunteering in the Missoula, MT community for local non-profit <a href="https://www.instagram.com/volunteermso/" target="_blank">Volunteer Missoula</a>.  </figcaption>
+      <img src={'/static/informant.png'} alt="" />
+        <figcaption>Another Wordpress homepage redesign. We wanted the homepage of Informant to look as clean and professional as their app felt (maybe even more so!). We tidied up the verbiage and used sexy screenshots to highlight the app. This particular preview is the mockup (done in Adobe XD). </figcaption>
     </a>
 
     <div className="individualProject">
-      <a href="#img02">
-      <img src={'/static/Wylder-Icon-Key.png'} alt="" />
+      <a href="#img2">
+        <img src={'/static/web-layout-pop.png'} alt="" />
       </a>
     </div>
-    <a href="#_" className="lightBox" id="img02">
-      <img src={'/static/Wylder-Icon-Key.png'} alt="" />
-        <figcaption> ICONS: I adore creating icons! Whether for web or print. They are a great mini-logo sort of challenge.</figcaption>
+    <a href="#_" className="lightBox" id="img2">
+      <img src={'/static/web-layout-pop.png'}/>
+      <figcaption> DIGITAL IMPACT: Unfortunately this site is not live yet, but it will be full of pop! This is a mockup done in Adobe Illustrator. </figcaption>
+    </a>
+
+
+
+
+    </div>
+  </wrapper>
+
+
+  <div>
+    <h1> Graphic Design </h1>
+  </div>
+
+  <wrapper className="projectWrapper">
+
+    <div className="projectContentsColumn">
+
+    <div className="individualProject">
+      <a href="#img15">
+        <img src={'/static/w-grid.png'} alt="" />
+      </a>
+    </div>
+    <a href="#_" className="lightBox" id="img15">
+        <img src={'/static/w-grid.png'} alt="" />
+      <figcaption>Check out the entire page at <a href="https://www.wyldergoods.com/pages/alaska-field-trip" target="_blank">Wylder Alaska Field Trip</a></figcaption>
     </a>
 
     <div className="individualProject">
-      <a href="#img03">
+      <a href="#img330">
+        <img src={'/static/HPSC-red.png'} alt="" />
+      </a>
+    </div>
+    <a href="#_" className="lightBox" id="img330">
+        <img src={'/static/HPSC-red.png'} alt="" />
+      <figcaption>HSPC: the Health Services Platform Consortium (say that 3 times) was looking for a little logo love. They specialize in bringing together health and medicine oriented software for a fun plug-n-play environment.We are still in the process of creating the perfect logo: these are two variations.</figcaption>
+    </a>
+
+
+    <div className="individualProject">
+      <a href="#img55">
+      <img src={'/static/Bozeman-Mag-Ad.jpg'} alt="" />
+      </a>
+    </div>
+    <a href="#_" className="lightBox" id="img55">
+      <img src={'/static/Bozeman-Mag-Ad.jpg'} alt="" />
+      <figcaption>BIG SKY CODE ACCADEMY: a little web ad for a Montana Based code program. They wanted to appeal to the outdoorsy youthful crowd in Bozeman, hence the rock climber and subtle topography.</figcaption>
+    </a>
+
+    <div className="individualProject">
+      <a href="#img66">
+      <img src={'/static/informant-gif.gif'} alt="" />
+      </a>
+    </div>
+    <a href="#_" className="lightBox" id="img66">
+      <img src={'/static/informant-gif.gif'} alt="" />
+      <figcaption>An animation I created to demonstrate the relationship between Informant products. I created this 100% from scratch in Adobe Illustrator and combined the images into a gif with some online tools.</figcaption>
+    </a>
+
+    <div className="individualProject">
+      <a href="#img033">
         <img src="http://78.media.tumblr.com/0a46babc18060ad38178dc9a4c706fe8/tumblr_oaqa1oCKao1uf7do3o1_1280.png" alt="" />
       </a>
     </div>
-    <a href="#_" className="lightBox" id="img03">
+    <a href="#_" className="lightBox" id="img033">
       <img src="http://78.media.tumblr.com/0a46babc18060ad38178dc9a4c706fe8/tumblr_oaqa1oCKao1uf7do3o1_1280.png" alt="" />
         <figcaption> POOL PARTY: my client wanted a summery, bold banner to promote their event, with one catch: add a penguin. After quite a few iterations we fell in love with this 80s inspired aesthetic. The cherry on top? A sweet little popsicle!</figcaption>
     </a>
 
     <div className="individualProject">
-      <a href="#img04">
+      <a href="#img044">
         <img src={'/static/di-logo.png'} alt="" />
       </a>
     </div>
-    <a href="#_" className="lightBox" id="img04">
+    <a href="#_" className="lightBox" id="img044">
       <img src={'/static/di-logo.png'} alt="" />
           <figcaption>DIGITAL IMPACT: logo design is HARD. I typically fill up pages with rejected doodles. That shouldn't mean it can't be fun! This logo design was inspired, oddly enough, by comic books and 3-D glasses. I used really bold elements, bright retro colors, and subtle halftone patterns for this design.</figcaption>
     </a>
 
+  </div>
+
+  <div className="projectContentsColumn2">
+
+  <div className="individualProject">
+    <a href="#img010">
+      <img src={'/static/wylder-stickers.jpg'} alt="" />
+    </a>
+  </div>
+  <a href="#_" className="lightBox" id="img010">
+    <img src={'/static/wylder-stickers.jpg'} alt="" />
+    <figcaption>STICKERS: Wylder needed a little promo swag, so we came up with three sticker designs. I went with bold rounded lines and subtle colors for a not-too-feminine and softly-rugged design. <a href="https://www.wyldergoods.com/products/wylder-sticker-pair" target="_blank"> (You can buy them here!)</a></figcaption>
+    </a>
+
+    <div className="individualProject">
+      <a href="#img002">
+          <img src="https://78.media.tumblr.com/d372b54d1cfc9babcfd4701f3cf50572/tumblr_oynkrli8Dn1uf7do3o1_540.jpg" alt="" />
+      </a>
     </div>
-  </wrapper>
+    <a href="#_" className="lightBox" id="img002">
+      <img src="https://78.media.tumblr.com/d372b54d1cfc9babcfd4701f3cf50572/tumblr_oynkrli8Dn1uf7do3o1_540.jpg" alt="" />
+      <figcaption>YOUTH CODING PROGRAMS: Code Rangers is a non-profit organization bringing code classes to youth in Montana. The promotional poster helps kids visually connect with the opportunity.</figcaption>
+    </a>
+
+  <div className="individualProject">
+    <a href="#img0101">
+    <img src={'/static/National-Volunteer-Week-long.png'} alt="" />
+    </a>
+  </div>
+  <a href="#_" className="lightBox" id="img0101">
+    <img src={'/static/National-Volunteer-Week-long.png'} alt="" />
+      <figcaption>RAISING AWARENESS: this campaign promoted volunteering in the Missoula, MT community for local non-profit <a href="https://www.instagram.com/volunteermso/" target="_blank">Volunteer Missoula</a>.  </figcaption>
+  </a>
+
+  <div className="individualProject">
+    <a href="#img22">
+    <img src={'/static/Wylder-Icon-Key.png'} alt="" />
+    </a>
+  </div>
+  <a href="#_" className="lightBox" id="img22">
+    <img src={'/static/Wylder-Icon-Key.png'} alt="" />
+      <figcaption> ICONS: I adore creating icons! Whether for web or print. They are a great mini-logo sort of challenge.</figcaption>
+  </a>
+
+
+
+  </div>
+</wrapper>
 
 
     <style jsx>{`
@@ -194,7 +278,7 @@ export default () => (
       .projectContentsColumn2{
         display: flex;
         flex-direction:column;
-        padding: 2%;
+        padding: 0 2%;
         width: 100%;
       }
 
