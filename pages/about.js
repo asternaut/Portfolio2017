@@ -16,7 +16,7 @@ export default () => (
 - Adobe AI / PS / ID / XD / Lightroom
 - CMS (Wordpress, Shopify, etc)
 - Git + FTP
-- Experience with Angular/React
+- Experience with Angular/React/Next
 - Photography
 - Web development
       `}/>
