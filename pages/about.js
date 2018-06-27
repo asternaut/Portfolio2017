@@ -15,10 +15,11 @@ export default () => (
 - HTML 5 / CSS 3 / SASS / LESS
 - Adobe AI / PS / ID / XD / Lightroom
 - CMS (Wordpress, Shopify, etc)
+- Web development
+- Responsive + Mobile design
 - Git + FTP
 - Experience with Angular/React/Next
 - Photography
-- Web development
       `}/>
     </div>
     <div className="essay">
